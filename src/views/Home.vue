@@ -5,7 +5,7 @@
       <el-header class="homeHeader">
         <div><i class="fa fa-drupal fa-2x"
              @click="isCollapse = isCollapse == false ? true : false"
-             style="color: #ffffff" />&nbsp; <font id="title">Fox人事管理系统</font>
+             style="color: #ffffff" />&nbsp; <font id="title">Fox综合人事管理系统</font>
         </div>
 
         <div style="display: flex; align-items: center; margin-right: 7px">

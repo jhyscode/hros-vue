@@ -8,7 +8,7 @@
              ref="loginForm"
              @keydown.enter.native="loginSubmit">
       <h2 class="logtitle"><i class="fa fa-drupal fa-2x"
-             style="color: #505458" />&nbsp;Fox 人 事 管 理</h2>
+             style="color: #505458" />&nbsp;Fox综合人事管理系统</h2>
       <el-form-item prop="username">
         <el-input type="text"
                   v-model="loginForm.username"
@@ -160,7 +160,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 937px; 
+  height: 937px;
    background-image: url(../assets/images/background.jpg);
 }
 .logContainer {
